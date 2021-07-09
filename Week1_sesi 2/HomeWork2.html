@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Exercise 1</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="stylesheet2.css">
+        <script src="PR2_Get API.js" defer></script>
+    </head>
+    <body>
+        <h1>Create Playlist</h1>
+        <!--br means break-->
+        <form>
+            <label for="Title">Title</label>
+            <input type="text" id="Title" name="Title"><br>
+            <label for="Desc">Description</label>
+            <input type="text" id="Desc" name="Desc"><br>
+            <input type="submit" onclick="formSubmit()" value="Submit">
+        </form>
+        <div class="kotak">
+            <img src="https://hatrabbits.com/wp-content/uploads/2017/01/random.jpg">
+            <p id="Track" >Track Title</p>
+            <p id="Artist">Artist</p>
+            <p id="Album">Album</p>
+            <input class="select" type="button" onclick="formSelect()" value="Select">
+        </div>
+
+    </body>
+</html>
