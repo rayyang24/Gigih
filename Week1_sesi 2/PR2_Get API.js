@@ -14,7 +14,7 @@ const getData=()=>{
         console.log(responseData)
         const hasilTrack=responseData.name;
         console.log(hasilTrack);
-        const hasilArtist=responseData.artist;
+        const hasilArtist=responseData.artists[0].name;
         console.log(hasilArtist);
         const hasilAlbum=responseData.album;
         console.log(hasilAlbum);
